@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contaner{
+    margin-top: 25vh;
+    background:rgb(255, 166, 41);
+    padding: 0.625rem;
+    
+    max-width:25rem;
+    width: 100%;
+}
+
+#search-area{
+    width: 100%;
+}
+
+#input-bar{
+    width:80%;
+    height: 100%;
+    padding: .3125rem ;
+    font-size: .85rem;
+    border: .0625rem rgb(104, 104, 104) solid;
+}
+
+#enter-button{
+    padding: .3125rem 0px;
+    margin-left:.3125rem  ;
+    width: 15.921%;
+    border:.0625rem rgb(104, 104, 104) solid;
+    font-size: .85rem;
+}
+
+.task-bar{
+    background: rgb(255, 215, 84);
+    border: 0.0625rem rgb(104, 104, 104) solid;
+    padding: 0.3125rem;
+    display: flex;
+}
+
+.check-box{
+    margin-right:0.625rem;
+}
+
+.checked{
+    text-decoration:line-through;
+    background:  rgb(215, 179, 60);
+    
+}
