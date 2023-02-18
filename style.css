@@ -24,6 +24,7 @@ body{
 
 #search-area{
     width: 100%;
+    margin-bottom: 10px;
 }
 
 #input-bar{
@@ -47,8 +48,21 @@ body{
     border: 0.0625rem rgb(104, 104, 104) solid;
     padding: 0.3125rem;
     display: flex;
+
 }
 
+.close{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    background: red;
+    padding: inherit;
+    text-align: center;
+}
+.close:hover{
+    background: rgb(255, 73, 73);
+    color: rgb(185, 185, 185);
+}
 .check-box{
     margin-right:0.625rem;
 }
