@@ -53,10 +53,10 @@ body{
 
 .close{
     position: absolute;
-    right: 1px;
-    top: 1px;
+    right: 0.0625rem;
+    top: 0.0625rem;
     background: red;
-    padding: inherit;
+    padding:  0.3125rem 0.4375rem;
     text-align: center;
 }
 .close:hover{
