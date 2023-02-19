@@ -17,7 +17,6 @@ body{
     margin-top: 25vh;
     background:rgb(255, 166, 41);
     padding: 0.625rem;
-    
     max-width:25rem;
     width: 100%;
 }
@@ -36,6 +35,7 @@ body{
 }
 
 #enter-button{
+    background: rgb(255, 220, 107);
     padding: .3125rem 0px;
     margin-left:.3125rem  ;
     width: 15.921%;
@@ -43,32 +43,43 @@ body{
     font-size: .85rem;
 }
 
+
 .task-bar{
     background: rgb(255, 215, 84);
-    border: 0.0625rem rgb(104, 104, 104) solid;
-    padding: 0.3125rem;
+    border: .0625rem rgb(104, 104, 104) solid;
     display: flex;
-
+    align-items: center;
 }
 
 .close{
-    position: absolute;
-    right: 0.0625rem;
-    top: 0.0625rem;
-    background: red;
-    padding:  0.3125rem 0.4375rem;
-    text-align: center;
-}
-.close:hover{
-    background: rgb(255, 73, 73);
-    color: rgb(185, 185, 185);
-}
-.check-box{
-    margin-right:0.625rem;
+    padding: .3125rem;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
-.checked{
-    text-decoration:line-through;
-    background:  rgb(215, 179, 60);
-    
+.close:hover{
+    background: rgb(255, 73, 73);
+    color: rgb(255, 255, 255);
 }
+
+.check-box{
+    margin-right: .625rem;
+    margin-left: .625rem;
+}
+
+.text{
+    display: block;
+    width: 100%;
+}
+
+/* For the Javascript */
+.checked-text{
+    text-decoration:line-through;
+}
+
+.task-bar-background{
+    background: rgb(215, 179, 60);
+}
+
